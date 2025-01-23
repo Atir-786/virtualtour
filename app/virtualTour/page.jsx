@@ -1,15 +1,16 @@
-"use client";
-
+import PanolensViewer from "@/components/PanolensViewer";
 import PanoramaViewer from "@/components/PanoramaViewer";
-import PanolensViewer from "../../components/PanolensViewer";
+import VirtualTour from "@/components/VirtualTour";
+import React from "react";
 
-const VirtualTourPage = () => {
+const page = () => {
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
+    <>
       {/* <PanolensViewer /> */}
-      <PanoramaViewer />
-    </div>
+      {/* <PanoramaViewer /> */}
+      <VirtualTour />
+    </>
   );
 };
 
-export default VirtualTourPage;
+export default page;
